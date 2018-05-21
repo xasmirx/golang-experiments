@@ -17,8 +17,5 @@ func allLongestStrings(inputArray []string) []string {
 		}
 	}
 
-	fmt.Println(best)
-
 	return newArray
-
 }
