@@ -6,8 +6,7 @@ func newRoadSystem(roadRegister [][]bool) bool {
 	out := make([]int, totalRegisters)
 
 	for k, v := range roadRegister {
-		s := len(v)
-		for i := 0; i < s; i++ {
+		for i := 0; i < totalRegisters; i++ {
 			if v[i] == true {
 				out[k] += 1
 				in[i] += 1
